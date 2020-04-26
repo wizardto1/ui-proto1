@@ -5,10 +5,12 @@ div.column1{
   width: 50%;
 text-align:center;
 border-radius:25px;
+ 
 }
 div.column2{
   width:50%;
   flex-grow: 1;
   text-align:center;
-  border-radius:25px
+  border-radius:25px;
+  margin-left:10px;
 }

@@ -17,7 +17,7 @@ app-bottom-bar {
   width: 100%;
   height: 60px;
   /*background-color: #B75AE6;*/
-  padding: ;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +28,23 @@ app-bottom-bar {
   bottom: 0;
   left: 0;
 }
-app-body{
-  display:none;
-  height:80%;
+app-gray-bar {
+  width: 50%;
+  height: 10px;
+  border-radius:25px;
+  background-color:gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity:.5;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
 }
