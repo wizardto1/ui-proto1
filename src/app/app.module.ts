@@ -19,12 +19,13 @@ import { SettingsComponent } from './settings/settings.component';
 import { Website2Component } from './website2/website2.component';
 import { GrayBarComponent } from './gray-bar/gray-bar.component';
 import { LanguageComponent } from './language/language.component';
+import { TopGrayBarComponent } from './body/top-gray-bar/top-gray-bar.component';
 const appRoutes: Routes = [
    { path: '', redirectTo : '/home', pathMatch:'full' },{path:'home', component: HomeComponent },{path:'learning',component:LearningCenterComponent},{path:'video',component:VideoComponent},{path:'eval',component:HomeEvalComponent},{path:'transition',component:TransitionComponent},{path:'contact',component:ContactComponent},{path:'website1',component:Website1Component},{path:'website2',component:Website2Component},{path:'settings',component:SettingsComponent},{path:'language',component:LanguageComponent}];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(appRoutes) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, TopBarComponent, BottomBarComponent, LearningCenterComponent, VideoComponent, HomeEvalComponent, TransitionComponent, ContactComponent, BodyComponent, Website1Component, SettingsComponent, Website2Component, GrayBarComponent, LanguageComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, TopBarComponent, BottomBarComponent, LearningCenterComponent, VideoComponent, HomeEvalComponent, TransitionComponent, ContactComponent, BodyComponent, Website1Component, SettingsComponent, Website2Component, GrayBarComponent, LanguageComponent, TopGrayBarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
