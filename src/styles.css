@@ -33,7 +33,7 @@ app-gray-bar {
   height: 10px;
   border-radius:0;
   background-image:linear-gradient(to bottom,white,black);
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
