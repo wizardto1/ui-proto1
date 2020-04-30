@@ -1,4 +1,4 @@
-<div style="height:520px; overflow:auto">
+<div style="height:520px; ">
 <p>
 Drexel University
 </p>
@@ -21,10 +21,10 @@ Philadelphia, PA 19102
 Email: <a href="mailto:arun@drexel.edu?Subject=Safe%20at%20Home%20Question" target="_top">arun@drexel.edu</a>
 </p>
 <h1>
-  Send a messagee
+  Send a message
   </h1>
-   Email:<input #textbox type="text" [(ngModel)]="emailValue" ><br>
-   Body:<input #textbox type="text" [(ngModel)]="bodyValue" style="width:50em;height:10em">
+   Subject:<br><input #textbox type="text" [(ngModel)]="emailValue" ><br>
+   Body:<input #textbox type="text" [(ngModel)]="bodyValue" style="width:40em;height:10em">
         <button (click)="logText(textbox.value)">Send</button>
         <button (click)="textValue=''">Clear</button>
 </div>
