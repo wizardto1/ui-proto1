@@ -16,6 +16,9 @@ app-top-bar {
   
   left: 0;
 }
+app-body{
+  height:80vh;
+}
 app-bottom-bar {
   width: 100%;
   height: 10vh;
